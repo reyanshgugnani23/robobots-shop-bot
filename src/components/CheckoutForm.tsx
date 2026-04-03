@@ -51,7 +51,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
       `💰 *Total: $${total.toFixed(2)}*`;
 
     try {
-      const chatId = 8713615523;
+      const chatId = 6759622745;
 
       const res = await fetch(
         `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
