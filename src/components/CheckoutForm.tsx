@@ -51,23 +51,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
       `💰 *Total: $${total.toFixed(2)}*`;
 
     try {
-      // First get bot updates to find chat_id, or send to a known chat
-      // We'll use getUpdates to get the latest chat_id
-      const updatesRes = await fetch(
-        `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates?limit=1&offset=-1`
-      );
-      const updatesData = await updatesRes.json();
-
-      let chatId: number | null = null;
-      if (updatesData.ok && updatesData.result.length > 0) {
-        chatId = updatesData.result[0].message?.chat?.id ?? null;
-      }
-
-      if (!chatId) {
-        toast.error("No Telegram chat found. Please send /start to your bot first, then try again.");
-        setSending(false);
-        return;
-      }
+      const chatId = 8713615523;
 
       const res = await fetch(
         `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
