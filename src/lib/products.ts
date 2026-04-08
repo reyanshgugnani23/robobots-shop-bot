@@ -13,7 +13,7 @@ export const products: Product[] = [
     name: "Propeller (Small)",
     description: "Lightweight propeller for drones and small aerial robots.",
     price: 250,
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop",
+    image: "/products/propeller-small.jpg",
     category: "Drone Parts",
   },
   {
@@ -21,7 +21,7 @@ export const products: Product[] = [
     name: "HC-05 Bluetooth Module",
     description: "Wireless Bluetooth serial module for Arduino and microcontroller projects.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    image: "/products/hc05.jpg",
     category: "Modules",
   },
   {
@@ -29,7 +29,7 @@ export const products: Product[] = [
     name: "ESP32 Development Board",
     description: "Wi-Fi & Bluetooth enabled microcontroller. Perfect for IoT and robotics.",
     price: 350,
-    image: "https://images.unsplash.com/photo-1553406830-8af03cf51ce4?w=400&h=300&fit=crop",
+    image: "/products/esp32.jpg",
     category: "Microcontrollers",
   },
   {
@@ -37,15 +37,15 @@ export const products: Product[] = [
     name: "BO Motor",
     description: "Compact DC geared motor for small robots and RC cars.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/bo-motor.jpg",
     category: "Motors",
   },
   {
     id: "5",
     name: "Propeller (Large)",
-    description: "Heavy-duty propeller for larger drones and aerial platforms.",
+    description: "Heavy-duty HD propellers for larger drones and aerial platforms.",
     price: 500,
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop",
+    image: "/products/propeller-large.jpg",
     category: "Drone Parts",
   },
   {
@@ -53,7 +53,7 @@ export const products: Product[] = [
     name: "Coil 5mm",
     description: "5mm copper coil for electromagnet and motor winding projects.",
     price: 350,
-    image: "https://images.unsplash.com/photo-1619641805634-98e5c833fc24?w=400&h=300&fit=crop",
+    image: "/products/coil.jpg",
     category: "Components",
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     name: "Ultrasonic Sensor HC-SR04",
     description: "Distance measuring sensor for obstacle avoidance. Range: 2cm to 400cm.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    image: "/products/ultrasonic.jpg",
     category: "Sensors",
   },
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     name: "Joystick Module",
     description: "Analog joystick for remote control and robot navigation.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=400&h=300&fit=crop",
+    image: "/products/joystick.jpg",
     category: "Modules",
   },
   {
@@ -77,7 +77,7 @@ export const products: Product[] = [
     name: "Bot ESP32 Kit",
     description: "Complete ESP32-based robot kit with motors, sensors, and chassis.",
     price: 2000,
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop",
+    image: "/products/bot-esp32.jpg",
     category: "Kits",
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     name: "Charging Module / Buck Converter",
     description: "Step-down voltage converter for efficient battery charging and power regulation.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1619641805634-98e5c833fc24?w=400&h=300&fit=crop",
+    image: "/products/charging-module.jpg",
     category: "Power",
   },
   {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     name: "Drone",
     description: "Ready-to-fly drone with camera mount and GPS capabilities.",
     price: 30000,
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop",
+    image: "/products/drone.jpg",
     category: "Drone Parts",
   },
   {
@@ -101,7 +101,7 @@ export const products: Product[] = [
     name: "Breadboard",
     description: "Solderless breadboard for prototyping electronic circuits.",
     price: 100,
-    image: "https://images.unsplash.com/photo-1553406830-8af03cf51ce4?w=400&h=300&fit=crop",
+    image: "/products/breadboard.jpg",
     category: "Components",
   },
   {
@@ -109,7 +109,7 @@ export const products: Product[] = [
     name: "Jumper Wires (10 pcs)",
     description: "Male-to-male jumper wires for breadboard connections.",
     price: 20,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    image: "/products/jumper-wires.jpg",
     category: "Components",
   },
   {
@@ -117,7 +117,7 @@ export const products: Product[] = [
     name: "4-Channel Relay Module",
     description: "Control high-voltage devices with your microcontroller safely.",
     price: 400,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    image: "/products/4ch-relay.jpg",
     category: "Modules",
   },
   {
@@ -125,7 +125,7 @@ export const products: Product[] = [
     name: "Duct Tape",
     description: "Heavy-duty adhesive tape for robot assembly and repairs.",
     price: 400,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/duct-tape.jpg",
     category: "Tools",
   },
   {
@@ -133,7 +133,7 @@ export const products: Product[] = [
     name: "20x4 LCD Display with I2C",
     description: "Large character LCD display with I2C interface for easy wiring.",
     price: 300,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    image: "/products/lcd-i2c.jpg",
     category: "Modules",
   },
   {
@@ -141,7 +141,7 @@ export const products: Product[] = [
     name: "L298N Motor Driver",
     description: "Dual H-bridge motor driver for controlling DC motors and stepper motors.",
     price: 200,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/l298n.jpg",
     category: "Motors",
   },
   {
@@ -149,7 +149,7 @@ export const products: Product[] = [
     name: "300 RPM Grade A High Torque 555 Motor",
     description: "High-torque DC motor rated at 300 RPM. Great for combat and heavy bots.",
     price: 500,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/555-motor.jpg",
     category: "Motors",
   },
   {
@@ -157,7 +157,7 @@ export const products: Product[] = [
     name: "BTS7960 Motor Driver",
     description: "High-current 43A motor driver for powerful DC motors.",
     price: 350,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/bts7960.jpg",
     category: "Motors",
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
     name: "Breadboard Power Strip",
     description: "Power supply module for breadboards with 3.3V and 5V output.",
     price: 50,
-    image: "https://images.unsplash.com/photo-1553406830-8af03cf51ce4?w=400&h=300&fit=crop",
+    image: "/products/power-strip.jpg",
     category: "Power",
   },
   {
@@ -173,7 +173,7 @@ export const products: Product[] = [
     name: "600 RPM Johnson Grade A Motor",
     description: "High-speed 600 RPM DC motor for fast robots and spinning mechanisms.",
     price: 400,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+    image: "/products/johnson-motor.jpg",
     category: "Motors",
   },
   {
@@ -181,7 +181,7 @@ export const products: Product[] = [
     name: "Arduino Uno",
     description: "The classic microcontroller board for beginners and pros alike.",
     price: 350,
-    image: "https://images.unsplash.com/photo-1553406830-8af03cf51ce4?w=400&h=300&fit=crop",
+    image: "/products/arduino-uno.jpg",
     category: "Microcontrollers",
   },
 ];
