@@ -37,7 +37,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
     setSending(true);
 
     const cartText = items
-      .map((i) => `• ${i.product.name} x${i.quantity} — $${(i.product.price * i.quantity).toFixed(2)}`)
+      .map((i) => `• ${i.product.name} x${i.quantity} — ₹${i.product.price * i.quantity}`)
       .join("\n");
 
     const message = `🤖 *New Order from RoboBots Store*\n\n` +
