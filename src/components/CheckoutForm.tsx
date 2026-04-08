@@ -21,7 +21,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
     phone: "",
     email: "",
     address: "",
-    shippingAddress: "N 229 Mayfield Garden Block N Sector 51 Gurgaon India 122003",
+    shippingAddress: "",
   });
 
   const update = (field: keyof FormData, value: string) =>
