@@ -10,7 +10,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    name: "Propeller (Small)",
+    name: "Glue Gun Refill",
     description: "Lightweight propeller for drones and small aerial robots.",
     price: 250,
     image: "/products/propeller-small.jpg",
