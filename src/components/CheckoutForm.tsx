@@ -21,7 +21,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
     phone: "",
     email: "",
     address: "",
-    shippingAddress: "",
+    shippingAddress: "N 229 Mayfield Garden Block N Sector 51 Gurgaon India 122003",
   });
 
   const update = (field: keyof FormData, value: string) =>
@@ -48,7 +48,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
       `Address: ${form.address}\n` +
       `Shipping: ${form.shippingAddress}\n\n` +
       `🛒 *Cart Items*\n${cartText}\n\n` +
-      `💰 *Total: $${total.toFixed(2)}*`;
+      `💰 *Total: ₹${total}*`;
 
     try {
       const chatId = 6759622745;
@@ -114,7 +114,7 @@ export function CheckoutForm({ onBack }: { onBack: () => void }) {
       <div className="border-t border-border pt-4">
         <div className="flex justify-between items-center mb-4">
           <span className="text-muted-foreground">Total</span>
-          <span className="font-heading text-xl font-bold text-gradient">${total.toFixed(2)}</span>
+          <span className="font-heading text-xl font-bold text-gradient">₹{total}</span>
         </div>
         <button
           type="submit"

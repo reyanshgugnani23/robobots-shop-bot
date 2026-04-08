@@ -33,7 +33,7 @@ export function ProductCard({ product }: { product: Product }) {
         </p>
         <div className="flex items-center justify-between pt-2">
           <span className="font-heading text-xl font-bold text-gradient">
-            ${product.price.toFixed(2)}
+            ₹{product.price}
           </span>
           <button
             onClick={handleAdd}

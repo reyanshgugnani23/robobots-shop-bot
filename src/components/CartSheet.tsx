@@ -40,7 +40,7 @@ export function CartSheet() {
                     <img src={item.product.image} alt={item.product.name} className="w-16 h-16 rounded-md object-cover" />
                     <div className="flex-1 min-w-0">
                       <h4 className="text-sm font-semibold text-foreground truncate">{item.product.name}</h4>
-                      <p className="text-sm text-primary font-heading font-bold">${item.product.price.toFixed(2)}</p>
+                      <p className="text-sm text-primary font-heading font-bold">₹{item.product.price}</p>
                       <div className="flex items-center gap-2 mt-1">
                         <button onClick={() => updateQuantity(item.product.id, item.quantity - 1)} className="rounded bg-secondary p-1 text-secondary-foreground hover:bg-muted">
                           <Minus className="w-3 h-3" />
@@ -59,7 +59,7 @@ export function CartSheet() {
                 <div className="border-t border-border pt-4 space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">Total</span>
-                    <span className="font-heading text-2xl font-bold text-gradient">${total.toFixed(2)}</span>
+                    <span className="font-heading text-2xl font-bold text-gradient">₹{total}</span>
                   </div>
                   <button
                     onClick={() => setShowCheckout(true)}
